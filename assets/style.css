@@ -1,0 +1,20 @@
+header {
+    background-color: rgb(255, 223, 229);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%    
+}
+
+h1 {
+    
+}
+
+li {
+    display: inline;
+    
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
