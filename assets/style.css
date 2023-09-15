@@ -2,19 +2,52 @@ header {
     background-color: rgb(255, 223, 229);
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 1%    
+    padding: 1%;   
+}
+h1 img {
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 80%;
+}
+main {
+    text-align: center;
+    
 }
 
 h1 {
-    
-}
-
-li {
-    display: inline;
-    
-}
-main {
+    margin-top: 5px;
     display: flex;
     flex-wrap: wrap;
 }
+h2{
+    background-color: purple;
+    color: white;
+}
+h2,
+h3 {
+    text-decoration: underline;
+    text-align: center;
+}
+nav a:hover {
+    color: white;
+}
+li {
+    display: inline;
+    margin-left: 40px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+     img {
+        width: 100%;
+    }
+}  
+
+
+
+
+
+
+
