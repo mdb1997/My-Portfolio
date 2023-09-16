@@ -51,6 +51,7 @@ li {
     display: inline;
     margin-left: 40px;
 }
+
 .Refactor img {
     width: 99%;
 }
@@ -61,27 +62,37 @@ li {
 
 
 @media screen and (max-width: 992px) {
-    .Refactor img {
-        width: 100%;
-    }
-    .Prework img {
-        width: 80%;
-    }
-    .Future img {
-        width: 50%;
-    }
     h1 {
         font-size: 40px;
     }
-    h2 {
-        font-size: 20px;
-    }
+  
     h3,
     li {
         font-size: 15px;
     }
+    
+    header {
+        flex-direction: column;
+    }
+    
+    .Refactor img,
+    h2 {
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .Prework img {
+        width: 80%;
+    }
+    
+    .Future img {
+        width: 50%;
+    }
+
    
 }
+
+
 
 
 
