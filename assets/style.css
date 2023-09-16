@@ -1,5 +1,9 @@
+:root {
+    --pink: rgb(255, 223, 229);
+}
+
 header {
-    background-color: rgb(255, 223, 229);
+    background-color: var(--pink);
     display: flex;
     justify-content: space-between;
     padding: 1%;   
@@ -10,8 +14,13 @@ h1 img {
     flex-wrap: wrap;
     margin-right: 80%;
 }
+nav a:hover {
+    color: white;
+}
 main {
     text-align: center;
+    background-color: lightblue;
+    padding: 1px;
     
 }
 
@@ -21,17 +30,17 @@ h1 {
     flex-wrap: wrap;
 }
 h2{
-    background-color: purple;
-    color: white;
-}
-h2,
-h3 {
+    background-color: var(--pink);
+    font-size: 30px;
     text-decoration: underline;
     text-align: center;
+    
 }
-nav a:hover {
-    color: white;
+h3 {
+    text-decoration: underline;
+    
 }
+
 li {
     display: inline;
     margin-left: 40px;
