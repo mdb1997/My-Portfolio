@@ -1,10 +1,11 @@
 :root {
     --pink: rgb(255, 223, 229);
     --darkpink: rgb(247, 136, 136); 
+    --blue: rgb(77, 148, 255);
 }
 
 header {
-    background-image: linear-gradient(var(--darkpink), var(--pink));
+    background-image: linear-gradient(var(--blue), lightblue);
     display: flex;
     justify-content: space-between;
     padding: 1%;   
@@ -36,12 +37,15 @@ h1 img {
 }
 
 h2 {
-    background-image: linear-gradient(180deg, var(--darkpink), var(--pink));
+    background-image: linear-gradient(var(--blue), lightblue);
     font-size: 30px;
     text-decoration: underline;
     text-align: center;   
 }
 
+h3 {
+    margin-bottom: 1px;
+}
 
 li {
     display: inline-block;
@@ -55,10 +59,12 @@ li {
 
 .Refactor img {
     width: 99%;
+    padding-bottom: 40px;
 }
 
 .Prework img {
     width: 90%;
+    padding-bottom: 40px;
 }
 
 
@@ -91,7 +97,15 @@ li {
         width: 50%;
     }
 
-   
+}
+@media screen and (max-width: 768px) {
+    header,
+    h2 {
+        background-image: linear-gradient(180deg, var(--darkpink), var(--pink));
+    }
+    main {
+        background-color: var(--pink);
+    }
 }
 
 
