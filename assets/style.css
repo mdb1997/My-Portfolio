@@ -16,8 +16,7 @@ nav a:hover {
 main {
     text-align: center;
     background-color: lightblue;
-    padding: 1px;
-    
+    padding: 1px;    
 }
 
 h1 {
@@ -35,23 +34,21 @@ h1 img {
     margin-right: 80%;
 }
 
-h2{
+h2 {
     background-color: var(--pink);
     font-size: 30px;
     text-decoration: underline;
-    text-align: center;
-    
-}
-h3 {
-    text-decoration: underline;
-    
+    text-align: center;   
 }
 
 li {
     display: inline;
     margin-left: 40px;
 }
-
+.My-Work {
+    text-align: left;
+    text-decoration: underline;
+}
 .Refactor img {
     width: 99%;
 }
