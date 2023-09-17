@@ -1,9 +1,10 @@
 :root {
     --pink: rgb(255, 223, 229);
+    --darkpink: rgb(247, 136, 136); 
 }
 
 header {
-    background-color: var(--pink);
+    background-image: linear-gradient(var(--darkpink), var(--pink));
     display: flex;
     justify-content: space-between;
     padding: 1%;   
@@ -35,23 +36,27 @@ h1 img {
 }
 
 h2 {
-    background-color: var(--pink);
+    background-image: linear-gradient(180deg, var(--darkpink), var(--pink));
     font-size: 30px;
     text-decoration: underline;
     text-align: center;   
 }
 
+
 li {
-    display: inline;
+    display: inline-block;
     margin-left: 40px;
 }
+
 .My-Work {
     text-align: left;
     text-decoration: underline;
 }
+
 .Refactor img {
     width: 99%;
 }
+
 .Prework img {
     width: 90%;
 }
@@ -65,7 +70,7 @@ li {
   
     h3,
     li {
-        font-size: 15px;
+        font-size: 14px;
     }
     
     header {
